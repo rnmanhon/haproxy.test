@@ -2,13 +2,17 @@
   "name": "ws.server",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.3b.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bunyan": "^1.8.1",
+    "express": "^4.13.4",
+    "lodash": "^4.13.1",
+    "path": "^0.12.7",
     "ws": "^1.1.0"
   }
 }
